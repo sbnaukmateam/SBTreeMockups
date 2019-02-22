@@ -42,8 +42,7 @@
 }
 
 .accounts-admin_control {
-    background-color: #317199;
-    /*TODO change color*/
+    background-color: #85deff;
 }
 
 .border-top-blue {
@@ -97,7 +96,7 @@
     font-size: 20px;
 }
 .accounts-admin_control_search-input::placeholder{
-    color:#85deff;
+    color:#317199;
     text-align: center;
     font-size:calc(1vw + 6px);
 
