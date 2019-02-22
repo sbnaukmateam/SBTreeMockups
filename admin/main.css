@@ -2,6 +2,9 @@
     background-color: #003470;
     color: white;
 }
+.admin-menu{
+    height: 70px;
+}
 .text-mid-blue{
     color:#317199;
 }
@@ -21,7 +24,10 @@
 .admin-menu a, .admin-menu_profile {
     font-size: calc(0.7vw + 10px);
 }
-
+.center{
+    text-align: center;
+    vertical-align: center;
+}
 .accounts-admin_list {
     background-color: #85deff;
 }
@@ -31,7 +37,7 @@
 
 .accounts-admin_list_cart {
     background-color: white;
-
+    height: 170px;
     border:4px solid #85deff;
 }
 
@@ -43,17 +49,24 @@
     border-bottom: 3px solid #003470;
 }
 .border-bottom-blue {
-    border-bottom: 1px solid #003470;
+    border-bottom: 2px solid #003470;
 }
 .font-weight-mid{
     font-weight: 400;
 }
 
 .accounts-admin_list_cart_plus-info{
-    font-size:calc(0.5vw + 9px);
-}
+    font-size:calc(0.4vw + 9px);
+ }
 .accounts-admin_list_cart{
     border-radius:10px;
+}
+.accounts-admin_list_cart_icon{
+    position: absolute;
+    left: 16px;
+}
+.accounts-admin_list_cart_text{
+    margin-left: 130px
 }
 .accounts-admin_control_classes-btn {
     background-color: #85deff;
@@ -67,8 +80,8 @@
 }
 
 .admin-menu_logo-img {
-    height: calc(3vw + 35px);
-    width: calc(3vw + 25px);
+    height: 45px;
+    width: 45px;
 }
 
 .admin-menu_user-icon {
@@ -85,7 +98,7 @@
 .accounts-admin_control_search-input::placeholder{
     color:#85deff;
     text-align: center;
-    font-size:calc(1vw + 10px);
+    font-size:calc(1vw + 6px);
 
 }
 .accounts-admin_control_filter-select{
@@ -97,28 +110,16 @@
     font-size:20px;
 }
 .accounts-admin_list_cart_person-img{
-    width:110px;
-    height:110px;
+    width:130px;
+    height:130px;
 }
 .accounts-admin_list_cart_small-icon{
-    bottom:10px;
-    left:11px;
-    width:35px;
+    bottom:0;
+    left:0;
+    width:45px;
     height:45px;
 }
-@media screen and (max-width: 576px){
-    .accounts-admin_list_cart_person-img{
-        width:80px;
-        height:80px;
-    }
-    .accounts-admin_list_cart_small-icon{
-        bottom:24px;
-        left:17px;
-        width:35px;
-        height:45px;
-    }
 
-}
 @media screen and (min-width: 1400px ){
     .col-xxl-10{
         -ms-flex: 0 0 83.333333%;
