@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
-body{ margin: 0;
+body{
+    margin: 0;
     padding: 0;
     background-image: url("../img/background.png");
     background-size:cover ;
@@ -8,8 +9,8 @@ body{ margin: 0;
 p, h1{
     font-family: 'Lato', sans-serif;
 }
-P{
-    font-size:2.5vh !important;;
+p{
+    font-size: 18px;
 }
 h2{
     font-family: 'Lato', sans-serif;
@@ -19,9 +20,8 @@ h2{
 .flex-container1{
     display: flex;
     flex-direction: row;
-    margin-top:7% !important;
     position: relative;
-    margin:0 8% 0 6%;
+    margin:7% 8% 0 6%;
 }
 
 .heading-wrapper {
@@ -29,13 +29,14 @@ h2{
     flex-grow: 2;
 }
 
-.logo-wrapper {
-    margin-right: 50px !important;
-    margin-top: 30px !important;
-}
 
 .flex-element{
     margin: 0 10px;
+}
+
+.logo-wrapper {
+    margin-right: 50px;
+    margin-top: 30px;
 }
 
 .main-heading{
@@ -45,7 +46,6 @@ h2{
 }
 
 .about-sb{
-    font-size:2.5vh !important;;
     width:75%;
 }
 
@@ -90,8 +90,7 @@ h2{
 }
 
 .about-sb-sec2{
-    width:70%;
-    font-size:2.5vh !important;;
+    width: 70%;
 }
 
 .about-sb-2-wrapping{
@@ -151,7 +150,6 @@ h2{
 }
 
 .child {
-    height: 300px;
     width: 30%;
     justify-content: center;
     align-items: center;
@@ -160,12 +158,12 @@ h2{
 }
 
 .circle-ava{
-    width:100px;
+    width:200px;
 }
 
 .under-heading{
     text-align: center;
-    width:50%;
+    width: 80%;
 }
 
 #org-history{
@@ -248,9 +246,8 @@ h2{
     .flex-container1{
         display: flex;
         flex-direction: column;
-        margin-top:7% !important;
         position: relative;
-        margin:0 8% 0 6%;
+        margin: 7% 8% 0 6%;
     }
     .flex-container2{
         display: flex;
@@ -268,14 +265,13 @@ h2{
         width: 100%;
         display: flex;
         flex-direction: column;
-
+        align-items: center;
     }
     .child {
         margin-top: 100px;
-        margin-bottom: 160px;
+        margin-bottom: 20px;
         height: 300px;
-        width: 30%;
-        margin-left: 20px;
+        width: 80%;
     }
     #where-to-find{
         color: #28639b;
