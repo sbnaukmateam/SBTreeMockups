@@ -202,6 +202,9 @@
 }
 .edit-info-point a, .edit-info-point p{
     margin: 0 0 0 10px;
+    max-width: calc(100% - 50px);
+}
+.edit-info-point a{
     -ms-text-overflow: ellipsis;
     text-overflow: ellipsis;
     white-space: nowrap;
