@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4d86f65-83ce-4f68-9099-28e4d33a8a47" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/profile/img/l-ico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile/img/litso.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile/img/sign.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/profile/main.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,44 +19,19 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profile/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="257" selection-start-line="257" selection-end-line="257" />
+            <state relative-caret-position="822">
+              <caret line="230" column="22" lean-forward="true" selection-start-line="230" selection-start-column="22" selection-end-line="230" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/profile/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="237" selection-start-line="237" selection-end-line="237" />
+            <state relative-caret-position="775">
+              <caret line="204" selection-start-line="204" selection-end-line="204" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="litso.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profile/img/litso.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="logo.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profile/img/logo.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="point.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profile/img/point.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="r-ico.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profile/img/r-ico.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="sign.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/profile/img/sign.png">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -70,6 +40,7 @@
     <findStrings>
       <find>35</find>
       <find>edit-info</find>
+      <find>card-info</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -117,12 +88,6 @@
               <item name="SBTreeMockups" type="462c0819:PsiDirectoryNode" />
               <item name="profile" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SBTreeMockups" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SBTreeMockups" type="462c0819:PsiDirectoryNode" />
-              <item name="profile" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -163,10 +128,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17674000" />
+    <option name="totallyTimeSpent" value="19811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -230,20 +196,6 @@
     <entry file="file://$PROJECT_DIR$/profile/img/del-point.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/profile/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="257" selection-start-line="257" selection-end-line="257" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profile/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="237" selection-start-line="237" selection-end-line="237" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/profile/img/litso.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -258,6 +210,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/profile/img/sign.png">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="822">
+          <caret line="230" column="22" lean-forward="true" selection-start-line="230" selection-start-column="22" selection-end-line="230" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="204" selection-start-line="204" selection-end-line="204" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

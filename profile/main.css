@@ -56,7 +56,7 @@
 }
 .l-col{
     width: 70%;
-    padding-right: 20px;
+    margin-right: 20px;
 }
 .r-col{
     width: 30%;
@@ -74,6 +74,7 @@
     position: relative;
 }
 .card-info-box{
+    min-height: 65%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
@@ -81,6 +82,9 @@
 .card-info{
     background-color: #e1ecf3;
     padding: 10px 5px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .card-info > div > img{
     max-width: 20%;
@@ -89,7 +93,7 @@
     margin: 0 0 5px;
 }
 .card-info > p, input{
-    font-size: calc(0.6vw + 6px);
+    font-size: calc(0.7vw + 6px);
 }
 .profile-ava{
     -webkit-border-radius: 50%;
@@ -129,6 +133,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #e1ecf3;
     grid-gap: 10px;
+    width: 100%;
 }
 @media (max-width: 1167px){
     .edit-info-wrapper{
@@ -138,7 +143,7 @@
 .edit-info{
     border: 1px solid #317199;
     background-color: #fff;
-    padding: 30px 15px 15px 15px;
+    padding: 30px 10px 10px 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -149,6 +154,7 @@
 .profile input{
     border: 1px solid #317199;
     margin-top: 8px;
+    width: 100%;
 }
 .profile input[placeholder]{
      color: #88b4d0;
@@ -172,6 +178,7 @@
     background-color: #317199;
     color: #fff;
     padding: 5px 30px;
+    min-width: 60%;
 }
 .profile button{
     font-size: calc(0.6vw + 5px);
@@ -181,6 +188,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
+    max-width: 100%;
 }
 .edit-info-point > div{
     display:flex;
@@ -194,13 +202,12 @@
 }
 .edit-info-point a, .edit-info-point p{
     margin: 0 0 0 10px;
-    max-width: calc(100% - 50px);
-}
-.edit-info-point a{
     -ms-text-overflow: ellipsis;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+}
+.edit-info-point a {
     text-decoration: underline #317199;
 }
 .edit-info-point p{
