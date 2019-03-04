@@ -129,27 +129,7 @@ button:hover {
     height: 50px;
 }
 
-.reset-pass {
-    position: absolute;
-    text-align: right;
-    margin-top: 45px;
-    margin-left: 180px;
-}
 
-.reset-pass:hover {
-    text-decoration: underline;
-}
-
-.none-acc {
-    position: relative;
-    top: 20px;
-    margin: 25px;
-    display: inline-block;
-}
-
-.none-acc:hover {
-    text-decoration: underline;
-}
 
 
 
