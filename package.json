@@ -1,0 +1,24 @@
+{
+  "name": "mockups",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "htmlhint": "^0.11.0",
+    "stylelint": "^9.10.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "lint": "htmlhint **/*.html && stylelint **/*.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbnaukmateam/SBTreeMockups.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbnaukmateam/SBTreeMockups/issues"
+  },
+  "homepage": "https://github.com/sbnaukmateam/SBTreeMockups#readme"
+}
