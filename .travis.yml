@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "8.15.0"
+
+script:
+  - npm run lint
+
+notifications:
+  slack: sbteam-workspace:vN5MU2uVkGH03b8jtz6JzCJ0
